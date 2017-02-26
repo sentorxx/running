@@ -38,18 +38,18 @@ fOut.write("  <trkseg>\n")
 
 rootIn=etree.parse(fileIn)
 
-latLast=None
-lonLast=None
-timeLast=None
-altitudeLast=None
-hrLast=None
-cadenceLast=None
-speedLast=None
-tempLast=None
-airpressureLast=None
-latLatest=None
-lonLatest=None
-timeGPSLatest=None
+latLast=0
+lonLast=0
+timeLast=0
+altitudeLast=0
+hrLast=0
+cadenceLast=0
+speedLast=0
+tempLast=0
+airpressureLast=0
+latLatest=0
+lonLatest=0
+timeGPSLatest=0
 
 lapCount=0
 lapArray=[0]
